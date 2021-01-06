@@ -22,7 +22,7 @@ steps:
     script: |
       # Write your PowerShell commands here.
       
-      Write-Host "Hello World"
+      Get-ChildItem -Path "*" -recurse
 
 - task: Npm@1
   displayName: 'Run npm install'
